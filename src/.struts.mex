@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="mstruts2" location="10,10" size="227,234">
+    <action name="Login" location="68,50" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="welcome.jsp" />
+      </result>
+      <result name="input">
+        <resourceEdge source="input" routing="0" target="loginerror.jsp" />
+      </result>
+    </action>
+    <action name="register" location="13,163" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="welcome.jsp" />
+      </result>
+      <result name="input">
+        <resourceEdge source="input" routing="0" target="loginerror.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="welcome.jsp" path="/welcome.jsp" location="100,205" size="150,55" />
+  <webResource name="loginerror.jsp" path="/loginerror.jsp" location="341,30" size="150,55" />
+</Struts2Diagram>
+
